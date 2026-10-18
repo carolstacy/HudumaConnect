@@ -22,7 +22,6 @@ import {
 
 const auth = getAuth()
 
-// Must match the authorized administrator UID in your Firestore rules.
 const ADMIN_UID = 'WD1k9W3pzEMzm8qrOPdt1aR5KD12'
 
 const services = [
@@ -444,7 +443,7 @@ function App() {
       <div className="top-bar">
         <div className="container top-bar-content">
           <span>PUBLIC SERVICE REQUEST PORTAL</span>
-          <span>Academic demonstration project</span>
+
         </div>
       </div>
 
@@ -656,7 +655,8 @@ function App() {
                   </div>
 
                   <p className="trust-note">
-                    A student-built demonstration of a digital public-service portal.
+                    <strong>Trusted by your community.</strong> All requests are
+                    linked to your signed-in account for privacy and security.
                   </p>
                 </div>
 
