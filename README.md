@@ -1,4 +1,4 @@
-# HudumaConnect — Public Service Request System
+ HudumaConnect — Public Service Request System
 
 HudumaConnect is a web-based public service request system designed to help citizens report community issues and track the progress of their service requests through a simple, user-friendly interface.
 
@@ -6,9 +6,9 @@ The project demonstrates how technology can improve communication between citize
 
 Note: HudumaConnect is an academic demonstration project and is not an official Kenyan government website or service.
 
-## Features
+ Features
 
-### Citizen Portal
+ Citizen Portal
 - Responsive homepage with a clean, accessible interface.
 - Browse public service categories.
 - Submit requests with personal contact details, location, category, and issue description.
@@ -16,14 +16,14 @@ Note: HudumaConnect is an academic demonstration project and is not an official 
 - Track request status using the reference number.
 - View requests submitted during the current browser session.
 
-### Admin Dashboard
+Admin Dashboard
 - View submitted service requests.
 - Monitor total, pending, in-progress, and resolved requests.
 - Search requests by reference number, name, location, category, or email.
 - Filter requests by status.
 - Update request statuses.
 
-### Service Categories
+ Service Categories
 - Roads and Transport
 - Water and Sanitation
 - Waste Management
@@ -31,7 +31,7 @@ Note: HudumaConnect is an academic demonstration project and is not an official 
 - Public Facilities
 - Other Services
 
-## Technologies Used
+ Technologies Used
 
 - React — User interface and application components.
 - Vite — Development server and build tool.
@@ -40,9 +40,9 @@ Note: HudumaConnect is an academic demonstration project and is not an official 
 - Git and GitHub — Version control and source code hosting.
 - Firebase— Planned backend integration for persistent data storage and authentication.
 
-## Getting Started
+Getting Started
 
-### Prerequisites
+ Prerequisites
 
 Install the following software before running the project:
 
@@ -50,47 +50,46 @@ Install the following software before running the project:
 - [Git](https://git-scm.com/).
 - [Visual Studio Code](https://code.visualstudio.com/) or another code editor.
 
-### Installation
+ Installation
 
 1. Clone the repository:
 
-   ```bash
+   bash
    git clone https://github.com/carolstacy/HudumaConnect.git
-   ```
+   
 
 2. Navigate to the project directory:
 
-   ```bash
+   bash
    cd HudumaConnect
-   ```
+
 
 3. Install dependencies:
-
-   ```bash
+bash
    npm install
-   ```
+  
 
 4. Start the development server:
 
-   ```bash
+  bash
    npm run dev
-   ```
+  
 
 5. Open the local URL displayed in your terminal, usually:
 
    `http://localhost:5173`
 
-## Available Commands
+ Available Commands
 
 | Command | Description |
 |---|---|
-| `npm run dev` | Starts the development server. |
+| `npm run dev' | Starts the development server. |
 | `npm run build` | Builds the application for production. |
 | `npm run preview` | Previews the production build locally. |
 
-## Project Structure
+Project Structure
 
-```text
+text
 HudumaConnect/
 ├── public/
 ├── src/
@@ -104,11 +103,11 @@ HudumaConnect/
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
-```
+
 
 *Note: The exact folders and files may vary depending on the current project setup.*
 
-## How to Use
+ How to Use
 
 1. Open the application in your browser.
 2. Browse the available public service categories.
@@ -118,7 +117,7 @@ HudumaConnect/
 6. Use the tracking section to check the request status.
 7. Open the demonstration Admin Dashboard to review requests and update their statuses.
 
-## Current Limitations
+ Current Limitations
 
 This version is a functional front-end demonstration with the following limitations:
 
@@ -128,7 +127,7 @@ This version is a functional front-end demonstration with the following limitati
 - The optional attachment selection does not upload files to a server.
 - Email notifications and integration with official government systems are not implemented.
 
-## Future Improvements
+ Future Improvements
 
 Planned enhancements include:
 
@@ -140,20 +139,20 @@ Planned enhancements include:
 - Request notifications and administrative reporting.
 - Deployment to a public hosting platform.
 
-## Security and Privacy
+ Security and Privacy
 
 The current version is intended for development and demonstration purposes. Do not submit real citizens' personal information or sensitive documents.
 
 Before production use, the system should implement secure authentication, server-side authorization, appropriate database access rules, input validation, and privacy protections.
 
-## Author
+ Author
 
-*Caroline Ndeti*
+Caroline Ndeti
 
 Information Technology Project
 
 HudumaConnect — Public Service Request System
 
-## License
+ License
 
 This project is developed for educational and demonstration purposes. A formal open-source license can be added if the project is intended for public reuse.
